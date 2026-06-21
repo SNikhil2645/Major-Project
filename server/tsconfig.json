@@ -10,7 +10,8 @@
     "noUnusedParameters": false,
     "declaration": false,
     "declarationMap": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "typeRoots": ["../node_modules/@types", "./node_modules/@types"]
   },
   "include": ["src"]
 }
