@@ -2,11 +2,10 @@
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "module": "CommonJS",
-    "moduleResolution": "node",
-    "paths": {
-      "@/*": ["./src/*"],
-      "@placementor/shared": ["../shared/src"]
-    }
+    "moduleResolution": "node16",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "ignoreDeprecations": "6.0"
   },
-  "include": ["src", "seeds"]
+  "include": ["src"]
 }
