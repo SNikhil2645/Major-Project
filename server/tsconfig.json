@@ -2,10 +2,15 @@
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "module": "CommonJS",
-    "moduleResolution": "node16",
+    "moduleResolution": "node",
     "outDir": "dist",
+    "rootDir": "src",
     "skipLibCheck": true,
-    "ignoreDeprecations": "6.0"
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": false
   },
   "include": ["src"]
 }
